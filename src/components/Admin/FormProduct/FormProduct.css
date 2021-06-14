@@ -1,0 +1,75 @@
+.formProduct {
+  height: fit-content;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+}
+.ant-form-item-required::before {
+  content: "" !important;
+}
+.ant-form-item-required::after {
+  display: inline-block !important;
+  margin-right: 4px !important;
+  color: #ff4d4f !important;
+  font-size: 14px !important;
+  font-family: SimSun, sans-serif !important;
+  line-height: 1 !important;
+  content: "*" !important;
+}
+
+.formProduct__container {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+}
+.formProduct__title {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 22px;
+}
+.avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+}
+.formProduct__form {
+  margin: 0 30px;
+  display: flex;
+  justify-content: center;
+}
+.formProduct__items{ 
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 6px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (max-width: 600px) {
+  .formProduct__form {
+    display: flex;
+    flex-direction: column;
+  }
+  .formProduct__items{ 
+    
+    width: 100%;
+  }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .formProduct__form {
+    display: flex;
+    flex-direction: column;
+  }
+  .formProduct__items{ 
+    width: 100%;
+  }
+}
+

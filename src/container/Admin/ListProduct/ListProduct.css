@@ -1,0 +1,9 @@
+.listProduct {
+  padding: 15px;
+  width: 100%;
+  height: fit-content;
+}
+.listProduct__action{
+  display: flex;
+  justify-content: space-between;
+}

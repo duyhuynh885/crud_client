@@ -1,0 +1,15 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  -webkit-box-shadow: 1px 0 1px rgb(80, 80, 80);
+  -moz-box-shadow: 1px 0 1px rgb(80, 80, 80);
+  box-shadow: 1px 0 1px rgb(80, 80, 80);
+}
+.navBar__sideRight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

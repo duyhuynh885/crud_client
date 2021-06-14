@@ -1,0 +1,8 @@
+.card__action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn__addToCart:hover {
+    color: white !important;
+}
